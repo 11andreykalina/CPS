@@ -14,17 +14,27 @@ body {
 
 .header_main-navigation {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     height: 88px;
     width: 100%;
     padding: 0 16px;
+    gap: 16.73px;
     
 }
 
 .header_nav-left {
+    display: flex;
+    gap: 16.73px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_nav-right {
+    display: flex;
     gap: 20px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .burger_menu {
