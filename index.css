@@ -1,0 +1,76 @@
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background-color: rgba(248, 248, 248, 1);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgba(217, 255, 245, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.header_main-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 88px;
+    width: 100%;
+    padding: 0 16px;
+    
+}
+
+.header_nav-left {
+    gap: 20px;
+}
+
+.burger_menu {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: none;
+}
+
+.header_divider-first {
+    display: none;
+    width: 2px;
+    height: 32px;
+}
+
+.logo {
+    width: 96.54814910888672;
+    height: 50.814815521240234;
+    border: none;
+    background: none;
+}
+
+
+.contact-us {
+   display: none;
+}
+
+.header_divider-second {
+    border: none;
+    background: none;
+    width: 2px;
+    height: 32px;
+}
+
+.header_repair {
+    border: none;
+    background: none;
+    width: 40px;
+    height: 40px;
+}
+
+.header_checkstatus {
+   border: none;
+    background: none;
+    width: 40px;
+    height: 40px;
+}
+
+
