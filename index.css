@@ -122,18 +122,17 @@ body {
   overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
-
 }
 
 /* Спрятал сткролл*/
 
 .main_slide_button-menu::-webkit-scrollbar {
-  width: 0;
+  display: none;
 }
 
 .main_slide_button {
   display: flex;
-  padding: 8px 0;
+
   width: max-content;
   padding-left: 16px;
 }
@@ -172,11 +171,9 @@ body {
 
 /* Основной блок с текстом */
 
-.block_first {
-   width: 320px;
-   height: 322px;
+.main_block-first {
    display: flex;
-   flex-wrap: wrap;
+   flex-direction: column;
    gap: 16px 16px;
   }
 
@@ -199,12 +196,15 @@ body {
 .block_icon-read {
     display: flex;
     justify-content: flex-start;
-    width: 132px;
     height: 24px;
     padding-left: 16px;
+    gap: 8px;
 }
 
 .icon_read {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 24px;
     height: 24px;
     border: none;
@@ -212,13 +212,17 @@ body {
 }
 
 .read {
-    width: 150px;
+    display: flex;
     height: 24px;
     font-size: 16px;
     font-family: TT Lakes;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: -0.2px;
+}
+
+#picture {
+    width: 100%;
 }
 
 
