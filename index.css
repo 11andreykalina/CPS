@@ -188,9 +188,6 @@ body {
     line-height: 18px;
     letter-spacing: 0.2px;
     /*white-space: pre-line;*/
-    
-
-    
 }
 
 .block_icon-read {
@@ -225,7 +222,9 @@ body {
     width: 100%;
 }
 
-
+.block_information-text-second {
+    display: none;
+}
 
 /* Основа сайта */
 
