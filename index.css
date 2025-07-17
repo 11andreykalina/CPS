@@ -228,3 +228,6 @@ body {
 
 /* Основа сайта */
 
+.main_services-button {
+    display: none;
+}
