@@ -4,83 +4,170 @@ body {
   gap: 24px;
   background-color: rgba(248, 248, 248, 1);
 }
-
+/* Шапка сайта начало мобильная версия*/
 .header {
-    display: flex;
-    flex-direction: row;
-    border-bottom: 1px solid rgba(217, 255, 245, 1);
-    background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgba(217, 255, 245, 1);
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .header_main-navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 88px;
-    width: 100%;
-    padding: 0 16px;
-    gap: 16.73px;
-    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 88px;
+  width: 100%;
+  padding: 0 16px;
+  gap: 16.73px;
 }
 
 .header_nav-left {
-    display: flex;
-    gap: 16.73px;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  gap: 16.73px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header_nav-right {
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .burger_menu {
-    width: 40px;
-    height: 40px;
-    border: none;
-    background: none;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: none;
 }
 
 .header_divider-first {
-    display: none;
-    width: 2px;
-    height: 32px;
+  display: none;
+  width: 2px;
+  height: 32px;
 }
 
 .logo {
-    width: 96.54814910888672;
-    height: 50.814815521240234;
-    border: none;
-    background: none;
+  width: 96.54814910888672;
+  height: 50.814815521240234;
+  border: none;
+  background: none;
 }
 
-
 .contact-us {
-   display: none;
+  display: none;
 }
 
 .header_divider-second {
-    border: none;
-    background: none;
-    width: 2px;
-    height: 32px;
+  border: none;
+  background: none;
+  width: 2px;
+  height: 32px;
 }
 
 .header_repair {
-    border: none;
-    background: none;
-    width: 40px;
-    height: 40px;
+  border: none;
+  background: none;
+  width: 40px;
+  height: 40px;
 }
 
 .header_checkstatus {
-   border: none;
-    background: none;
-    width: 40px;
-    height: 40px;
+  border: none;
+  background: none;
+  width: 40px;
+  height: 40px;
+}
+
+/* Шапка сайта конец мобильная версия*/
+
+/* Основа сайта */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background-color: #f8f8f8;
+}
+
+.main_title-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  width: 304px;
+  height: 40px;
+  gap: 12px;
+ 
+}
+
+.highlight {
+  background: none;
+  border: none;
+}
+
+.title_name {
+  width: 304px;
+  height: 40px;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: -0.6px;
+  font-weight: 700;
+  font-family: TT Lakes;
+}
+
+.main_slide_button-menu {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+}
+
+/* Спрятал сткролл*/
+
+.main_slide_button-menu::-webkit-scrollbar {
+  width: 0;
+}
+
+.main_slide_button {
+  display: flex;
+  padding: 8px 0;
+  width: max-content;
+  padding-left: 16px;
+}
+
+.main_slide_button > button {
+  padding: 6px 16px;
+  border: none;
+  background: none;
+  color: grey;
+  font-weight: 500;
+  font-family: TT Lakes;
+  white-space: nowrap;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+}
+
+/*
+.main_slide_button > button:hover {
+  border: 2px solid #b8ffec;
+  border-radius: 6px;
+  background-color: white;
 }
 
 
+.main_slide_button > button:active {
+  transform: translateY(1px);
+}
+*/
+#active_button {
+  border: 2px solid #b8ffec;
+  border-radius: 6px;
+  background-color: white;
+}
+
+
+/* Основа сайта */
