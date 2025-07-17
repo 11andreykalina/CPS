@@ -163,11 +163,65 @@ body {
   transform: translateY(1px);
 }
 */
+
 #active_button {
   border: 2px solid #b8ffec;
   border-radius: 6px;
   background-color: white;
 }
 
+/* Основной блок с текстом */
+
+.block_first {
+   width: 320px;
+   height: 322px;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 16px 16px;
+  }
+
+.block_infomation-text-first {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    font-size: 14px;
+    font-family: TT Lakes;
+    font-weight: 400;
+    padding-left: 16px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    white-space: pre-line;
+    padding-top: 0px;
+
+    
+}
+
+.block_icon-read {
+    display: flex;
+    justify-content: flex-start;
+    width: 132px;
+    height: 24px;
+    padding-left: 16px;
+}
+
+.icon_read {
+    width: 24px;
+    height: 24px;
+    border: none;
+    background: none;
+}
+
+.read {
+    width: 150px;
+    height: 24px;
+    font-size: 16px;
+    font-family: TT Lakes;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+}
+
+
 
 /* Основа сайта */
+
