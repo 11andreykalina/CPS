@@ -1,82 +1,63 @@
 /* медиа планшет */
 
-@media screen and (min-width:768px) {
-    .contact-us {
-        display: flex;
-    }
-}
+@media (min-width: 768px) {
+  .contact-us {
+    display: flex;
+    gap:16px;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
 
-@media screen and (min-width:768px) {
-    .header_divider-first {
-        display: flex;
-    }
-}
+  .main_title-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 304px;
+    height: 40px;
+    gap: 20px;
+  }
 
-@media screen and (min-width:768px) {
-    .block_infomation-text-first {
-        display: none;
-    }
-}
+  .highlight{
+    width: 4px;
+    height: 40px;
+  }
 
-@media screen and (min-width:768px) {
-    .block_information-text-third {
-        display: none;
-    }
-}
+  .block_information-text-second {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
 
-@media screen and (min-width:768px) {
-    .block_information-text-second {
-        display: block;
-    }
-}
+  .main_block-first {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
 
+  .main_block-information {
+    display: flex;
+    flex-direction: column;
+    width: 44%;
+  }
 
-@media screen and (min-width:768px) {
-    .main_block-first {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto auto;
-       /* gap: 20px; */
-        align-items: start;
-        padding-top: 8px;
-        }
-}
+  .information-text {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+  }
 
-
-@media screen and (min-width:768px) {
-    .block_information-text-second {
-        grid-column: 1 / 2;
-        grid-row: 1 / 2;
-        }
-}
-
-
-
-
-@media screen and (min-width:768px) {
-    .block_icon-read {
-        grid-column: 1 / 2;
-        grid-row: 2 / 2;
-    }
-}
-
-@media screen and (min-width:768px) {
-    .main_block-second {
-        grid-column: 2 / 3;
-        grid-row: 1 / 3;
-    }
-}
-
-
-@media screen and (min-width:768px) {
-    #picture {
+  #picture {
     width: 100%;
     height: 100%;
-    object-fit: cover; 
+    object-fit: cover;
     border-radius: 8px;
-    padding-right: 25px;
-    padding-bottom: 40px;
-    }
+  }
 }
 
 /* медиа планшет */
