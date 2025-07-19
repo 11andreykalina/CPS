@@ -1,0 +1,24 @@
+
+@media screen and (min-width:1120px) {
+     .header {
+        display: none;
+     }
+}
+
+@media screen and (min-width:1120px) {
+   .block_information-text-second {
+      display: none;
+   }
+}
+
+@media screen and (min-width:1120px) {
+   .block_information-text-first {
+      display: none;
+   }
+}
+
+@media screen and (min-width:1120px) {
+   .block_information-text-third {
+      display: block;
+   }
+}
