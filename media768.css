@@ -5,22 +5,13 @@
     display: flex;
     gap:16px;
   }
-  
+
   .main {
     display: flex;
     flex-direction: column;
     gap: 32px;
   }
 
-  .main_title-name {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
-    width: 304px;
-    height: 40px;
-    gap: 20px;
-  }
 
   .highlight{
     width: 4px;
@@ -33,7 +24,15 @@
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
   }
-
+  
+  .block_infomation-text-first{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    width: 100%;
+  }
   .main_block-first {
     display: flex;
     flex-direction: row;

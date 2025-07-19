@@ -34,7 +34,6 @@ body {
   gap: 20px;
   justify-content: space-between;
   align-items: center;
-  background: none;
 }
 
 .burger_menu {
@@ -190,9 +189,11 @@ body {
 .block_infomation-text-first {
   display: flex;
   flex-direction: column;
+  justify-content: start;
   line-height: 18px;
   letter-spacing: 0.2px;
-  /*white-space: pre-line;*/
+  width: 96%;
+
 }
 
 .block_information-text-second {
