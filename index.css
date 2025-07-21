@@ -1,34 +1,37 @@
 body {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  background-color: rgba(248, 248, 248, 1);
+  display: flex; /* Флекс-контейнер */
+  flex-direction: column; /* Вертикальное направление */
+  gap: 24px; /* Расстояние между элементами */
+  background-color: rgba(248, 248, 248, 1); /* Цвет фона */
 }
-/* Шапка сайта начало мобильная версия*/
+
+/* Шапка сайта (мобильная версия) */
 .header {
-  display: flex;
-  flex-direction: row;
-  border-bottom: 1px solid rgba(217, 255, 245, 1);
-  background-color: rgba(255, 255, 255, 1);
+  display: flex; 
+  flex-direction: row; /* Горизонтальное направление */
+  border-bottom: 1px solid rgba(217, 255, 245, 1); /* Граница снизу */
+  background-color: rgba(255, 255, 255, 1); /* Белый фон */
 }
 
 .header_main-navigation {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 88px;
-  width: 100%;
-  padding: 0 16px;
-  gap: 16.73px;
+  justify-content: space-between; /* Распределение по краям */
+  align-items: center; /* Выравнивание по центру */
+  height: 88px; /* Высота шапки */
+  width: 100%; /* Ширина 100% */
+  padding: 0 16px; /* Отступы по бокам */
+  gap: 16.73px; /* Расстояние между элементами */
 }
 
+/* Левая часть шапки */
 .header_nav-left {
   display: flex;
-  gap: 16.73px;
+  gap: 16.73px; 
   justify-content: space-between;
   align-items: center;
 }
 
+/* Правая часть шапки */
 .header_nav-right {
   display: flex;
   gap: 20px;
@@ -36,32 +39,37 @@ body {
   align-items: center;
 }
 
+/* Стили кнопок */
 .burger_menu {
-  width: 40px;
-  height: 40px;
-  border: none;
-  background: none;
+  width: 40px; /* Ширина кнопки */
+  height: 40px; /* Высота кнопки */
+  border: none; /* Без рамки */
+  background: none; /* Прозрачный фон */
 }
 
+/* Разделитель (скрыт на мобильных) */
 .header_divider-first {
-  display: none;
+  display: none; /* Скрыт по умолчанию */
   border: none;
   background: none;
-  width: 2px;
-  height: 32px;
+  width: 2px; /* Ширина разделителя */
+  height: 32px; /* Высота разделителя */
 }
 
+/* Логотип */
 .logo {
-  width: 96.54814910888672;
-  height: 50.814815521240234;
+  width: 96.54814910888672; /* Ширина лого */
+  height: 50.814815521240234; /* Высота лого */
   border: none;
   background: none;
 }
 
+/* Блок контактов (скрыт на мобильных) */
 .contact-us {
-  display: none;
+  display: none; /* Скрыт по умолчанию */
 }
 
+/* Видимый разделитель */
 .header_divider-second {
   border: none;
   background: none;
@@ -69,6 +77,7 @@ body {
   height: 32px;
 }
 
+/* Общие стили кнопок */
 .header_btn {
   border: none;
   background: none;
@@ -76,168 +85,169 @@ body {
   height: 40px;
 }
 
-/* Шапка сайта конец мобильная версия*/
-
-/* Основа сайта */
-
+/* Основной контент */
 .main {
   display: flex;
   flex-direction: column;
-  gap: 24px;
-  background-color: #f8f8f8;
+  gap: 24px; /* Расстояние между секциями */
+  background-color: #f8f8f8; /* Цвет фона */
 }
 
+/* Заголовок страницы */
 .main_title-name {
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: start; /* Выравнивание по левому краю */
   align-items: center;
-  width: 304px;
-  height: 40px;
-  gap: 12px;
+  width: 304px; /* Ширина контейнера */
+  height: 40px; /* Высота контейнера */
+  gap: 12px; /* Расстояние между элементами */
 }
 
+/* Акцентная полоса */
 .highlight {
   background: none;
   border: none;
 }
 
+/* Текст заголовка */
 .title_name {
   width: 304px;
   height: 40px;
-  font-size: 28px;
-  line-height: 40px;
-  letter-spacing: -0.6px;
-  font-weight: 700;
-  font-family: TT Lakes;
+  font-size: 28px; /* Размер шрифта */
+  line-height: 40px; /* Высота строки */
+  letter-spacing: -0.6px; /* Межбуквенное расстояние */
+  font-weight: 700; /* Жирный шрифт */
+  font-family: TT Lakes; /* Шрифт */
 }
 
+/* Горизонтальное меню */
 .main_slide_button-menu {
-  overflow-x: auto;
-  overflow-y: hidden;
-  white-space: nowrap;
+  overflow-x: auto; /* Горизонтальная прокрутка */
+  overflow-y: hidden; /* Без вертикальной прокрутки */
+  white-space: nowrap; /* Текст в одну строку */
 }
 
-/* Спрятал сткролл*/
-
+/* Скрытие полосы прокрутки */
 .main_slide_button-menu::-webkit-scrollbar {
-  display: none;
+  display: none; /* Скрыть скроллбар */
 }
 
+/* Контейнер кнопок меню */
 .main_slide_button {
   display: flex;
-
-  width: max-content;
-  padding-left: 16px;
+  width: max-content; /* Ширина по контенту */
+  padding-left: 16px; /* Отступ слева */
 }
 
+/* Стили кнопок меню */
 .main_slide_button > button {
-  padding: 6px 16px;
-  border: none;
-  background: none;
-  color: grey;
-  font-weight: 500;
-  font-family: TT Lakes;
-  white-space: nowrap;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: -0.2px;
+  padding: 6px 16px; /* Внутренние отступы */
+  border: none; /* Без рамки */
+  background: none; /* Прозрачный фон */
+  color: grey; /* Цвет текста */
+  font-weight: 500; /* Полужирный */
+  font-family: TT Lakes; /* Шрифт */
+  white-space: nowrap; /* Текст в одну строку */
+  font-size: 16px; /* Размер шрифта */
+  line-height: 24px; /* Высота строки */
+  letter-spacing: -0.2px; /* Межбуквенное расстояние */
 }
 
+/* Эффекты при наведении */
 .main_slide_button > button:hover {
-  border: 2px solid #b8ffec;
-  border-radius: 6px;
-  background-color: white;
+  border: 2px solid #b8ffec; /* Зеленая рамка */
+  border-radius: 6px; /* Закругление углов */
+  background-color: white; /* Белый фон */
 }
 
+/* Эффект нажатия */
 .main_slide_button > button:active {
-  transform: translateY(1px);
+  transform: translateY(1px); /* Сдвиг вниз */
 }
 
-/*#active_button {
-  border: 2px solid #b8ffec;
-  border-radius: 6px;
-  background-color: white;
-} */
-
-/* Основной блок с текстом */
-
+/* Основной контентный блок */
 .main_block-first {
   display: flex;
-  flex-direction: column;
-  gap: 16px;
+  flex-direction: column; /* Вертикальное расположение */
+  gap: 16px; /* Расстояние между элементами */
 }
 
+/* Общие стили текста */
 .text-p {
-  font-size: 14px;
-  font-family: TT Lakes;
-  font-weight: 400;
+  font-size: 14px; /* Размер шрифта */
+  font-family: TT Lakes; /* Шрифт */
+  font-weight: 400; /* Обычное начертание */
 }
+
+/* Контейнер информации */
 .main_block-information {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  padding-left: 24px;
+  padding-left: 24px; /* Отступ слева */
 }
 
+/* Вложенный контейнер */
 .information-text {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
+/* Первый текстовый блок */
 .block_infomation-text-first {
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  line-height: 18px;
-  letter-spacing: 0.2px;
-  width: 96%;
+  justify-content: start; /* Выравнивание по началу */
+  line-height: 18px; /* Высота строки */
+  letter-spacing: 0.2px; /* Межбуквенное расстояние */
+  width: 96%; /* Ширина блока */
 }
 
+/* Второй текстовый блок (скрыт) */
 .block_information-text-second {
-  display: none;
+  display: none; /* Скрыт по умолчанию */
   line-height: 20px;
   letter-spacing: 0.2px;
 }
 
+/* Кнопка "Читать далее" */
 .block_icon-read {
   display: flex;
-  justify-content: flex-start;
-  height: 24px;
-  gap: 8px;
+  justify-content: flex-start; /* Выравнивание по левому краю */
+  height: 24px; /* Высота контейнера */
+  gap: 8px; /* Расстояние между элементами */
 }
 
+/* Иконка */
 .icon_read {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 24px;
-  height: 24px;
+  justify-content: center; /* Центрирование по горизонтали */
+  align-items: center; /* Центрирование по вертикали */
+  width: 24px; /* Ширина */
+  height: 24px; /* Высота */
   border: none;
   background: none;
 }
 
+/* Текст кнопки */
 .read {
   display: flex;
   height: 24px;
-  font-size: 16px;
-  font-family: TT Lakes;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: -0.2px;
+  font-size: 16px; /* Размер шрифта */
+  font-family: TT Lakes; /* Шрифт */
+  font-weight: 500; /* Полужирный */
+  line-height: 24px; /* Высота строки */
+  letter-spacing: -0.2px; /* Межбуквенное расстояние */
 }
 
+/* Изображение */
 #picture {
-  width: 100%;
+  width: 100%; /* Занимает всю ширину */
 }
 
-.block_information-text-second {
-  display: none;
-}
-
-/* Основа сайта */
-
+/* Скрытие элементов */
 .main_services-button {
-  display: none;
+  display: none; /* Скрыт на мобильных */
 }

@@ -1,61 +1,52 @@
-/* медиа планшет */
-
 @media (min-width: 768px) {
   .contact-us {
-    display: flex;
-    gap: 16px;
+    display: flex; /* Отображение блока контактов */
+    gap: 16px; /* Расстояние между элементами */
   }
 
   .main {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
+    gap: 32px; /* Увеличенное расстояние */
+  }
+
+  .header_divider-first {
+    display: block; /* Отображение разделителя */
   }
 
   .highlight {
-    width: 4px;
-    height: 40px;
+    width: 4px; /* Ширина акцентной полосы */
+    height: 40px; /* Высота акцентной полосы */
   }
 
+  /* Отображение второго абзаца с ограничением в 2 строки */
   .block_information-text-second {
     display: -webkit-box;
     overflow: hidden;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 2; /* Макс. 2 строки */
   }
 
   .block_infomation-text-first {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    line-height: 18px;
-    letter-spacing: 0.2px;
-    width: 100%;
+    width: 100%; /* Полная ширина */
   }
+  
+  /* Изменение направления блока на горизонтальное */
   .main_block-first {
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
+    flex-direction: row; /* Горизонтальное расположение */
+    gap: 40px; /* Расстояние между колонками */
   }
 
   .main_block-information {
-    display: flex;
-    flex-direction: column;
-    width: 44%;
+    width: 44%; /* Ширина текстовой колонки */
   }
 
   .information-text {
-    display: flex;
-    flex-direction: column;
-    gap: 26px;
+    gap: 26px; /* Увеличенное расстояние */
   }
 
+  /* Стили для изображения */
   #picture {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 8px;
+    height: 100%; /* Высота 100% */
+    object-fit: cover; /* Обрезка изображения */
+    border-radius: 8px; /* Закругление углов */
   }
 }
-
-/* медиа планшет */

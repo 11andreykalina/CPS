@@ -1,34 +1,35 @@
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* Сброс всех отступов и границ */
+*, *::before, *::after {
+  margin: 0; /* Обнуление внешних отступов */
+  padding: 0; /* Обнуление внутренних отступов */
+  box-sizing: border-box; /* Размеры включают padding и border */
 }
 
-html,
-body {
-  height: 100%;
+/* Настройка высоты корневых элементов */
+html, body {
+  height: 100%; /* Высота 100% от родителя */
 }
 
-ul,
-ol {
-  list-style: none;
+/* Стилизация списков */
+ul, ol {
+  list-style: none; /* Удаление маркеров списка */
 }
 
+/* Стилизация ссылок */
 a {
-  text-decoration: none;
-  color: inherit;
+  text-decoration: none; /* Удаление подчеркивания */
+  color: inherit; /* Наследование цвета текста */
 }
 
+/* Стилизация таблиц */
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+  border-collapse: collapse; /* Слияние границ ячеек */
+  border-spacing: 0; /* Расстояние между границами */
 }
 
-img,
-video {
-  max-width: 100%;
-  height: auto;
-  display: block;
+/* Работа с медиа */
+img, video {
+  max-width: 100%; /* Макс. ширина 100% контейнера */
+  height: auto; /* Автоматическая высота */
+  display: block; /* Блочное отображение */
 }

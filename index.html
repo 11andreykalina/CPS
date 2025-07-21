@@ -1,70 +1,63 @@
-<!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="fonts.css" />
-    <link rel="stylesheet" href="media768.css" />
-    <link rel="stylesheet" href="media1120.css" />
-    <title>CPS</title>
+<!DOCTYPE html> <!-- Объявление типа документа как HTML5 -->
+<html lang="ru"> <!-- Корневой элемент документа с указанием языка -->
+  <head> <!-- Секция метаданных документа -->
+    <meta charset="UTF-8" /> <!-- Кодировка символов UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Настройка адаптивности -->
+    <link rel="stylesheet" href="index.css" /> <!-- Подключение основного CSS -->
+    <link rel="stylesheet" href="reset.css" /> <!-- Подключение CSS сброса стилей -->
+    <link rel="stylesheet" href="fonts.css" /> <!-- Подключение шрифтов -->
+    <link rel="stylesheet" href="media768.css" /> <!-- Медиазапросы для планшетов -->
+    <link rel="stylesheet" href="media1120.css" /> <!-- Медиазапросы для десктопов -->
+    <title>CPS</title> <!-- Заголовок страницы -->
   </head>
-  <body>
-    <header class="header">
-      <div class="header_main-navigation">
-        <div class="header_nav-left">
-          <button class="burger_menu header_btn">
-            <img src="img/burger.svg" alt="open-menu" />
+  <body> <!-- Тело документа -->
+    <header class="header"> <!-- Шапка сайта -->
+      <div class="header_main-navigation"> <!-- Главная навигация -->
+        <div class="header_nav-left"> <!-- Левая часть навигации -->
+          <button class="burger_menu header_btn"> <!-- Кнопка меню -->
+            <img src="img/burger.svg" alt="open-menu" /> <!-- Иконка меню -->
           </button>
-
-          <button class="header_divider-first">
-            <img src="img/divider.svg" alt="divider" />
+          <button class="header_divider-first"> <!-- Разделитель -->
+            <img src="img/divider.svg" alt="divider" /> 
           </button>
-
-          <button class="logo">
+          <button class="logo"> <!-- Логотип -->
             <img src="img/Group.svg" alt="logo" />
           </button>
         </div>
-        <div class="header_nav-right">
-          <div class="contact-us">
-            <button class="contact-us_call header_btn">
+        <div class="header_nav-right"> <!-- Правая часть навигации -->
+          <div class="contact-us"> <!-- Контакты -->
+            <button class="contact-us_call header_btn"> <!-- Кнопка звонка -->
               <img src="img/call.svg" alt="call" />
             </button>
-
-            <button class="chat header_btn">
+            <button class="chat header_btn"> <!-- Кнопка чата -->
               <img src="img/chat.svg" alt="chat" />
             </button>
-
-            <button class="profile header_btn">
+            <button class="profile header_btn"> <!-- Кнопка профиля -->
               <img src="img/profile.svg" alt="profile" />
             </button>
           </div>
-          <button class="header_divider-second">
+          <button class="header_divider-second"> <!-- Разделитель -->
             <img src="img/divider.svg" alt="divider" />
           </button>
-
-          <button class="header_repair header_btn">
+          <button class="header_repair header_btn"> <!-- Ремонт -->
             <img src="img/repair.svg" alt="repair" />
           </button>
-
-          <button class="header_checkstatus header_btn">
+          <button class="header_checkstatus header_btn"> <!-- Статус -->
             <img src="img/checkstatus.svg" alt="checkstatus" />
           </button>
         </div>
       </div>
     </header>
 
-    <main class="main">
-      <div class="main_container">
-        <div class="main_title-name">
-          <button class="highlight">
+    <main class="main"> <!-- Основной контент -->
+      <div class="main_container"> <!-- Контейнер заголовка -->
+        <div class="main_title-name"> <!-- Заголовок страницы -->
+          <button class="highlight"> <!-- Акцентная полоса -->
             <img src="img/highlight.svg" alt="highlight" />
           </button>
-          <h1 class="title_name">Услуги и сервисы</h1>
+          <h1 class="title_name">Услуги и сервисы</h1> <!-- Текст заголовка -->
         </div>
-
-        <div class="main_services-button">
+        <div class="main_services-button"> <!-- Кнопки сервисов (скрыты на мобильных) -->
           <button class="button-item">
             <p class="button-item-text">Оставить заявку</p>
             <img src="img/repair.svg" alt="repair" />
@@ -75,47 +68,42 @@
           </button>
         </div>
       </div>
-      <div class="main_slide_button-menu">
-        <div class="main_slide_button">
-          <button class="button_scroll-brands-under-repair" id="active_button">
+      <div class="main_slide_button-menu"> <!-- Горизонтальное меню -->
+        <div class="main_slide_button"> <!-- Контейнер кнопок -->
+          <button class="button_scroll-brands-under-repair" id="active_button"> <!-- Активная кнопка -->
             Ремонтируемые устройства
           </button>
-          <button class="button_scroll-Additional-services">
-            Дополнительные услуги
-          </button>
-          <button class="button_scroll-prices-for-services">
-            Цены на услуги
-          </button>
+          <!-- Остальные кнопки меню -->
+          <button class="button_scroll-Additional-services">Дополнительные услуги</button>
+          <button class="button_scroll-prices-for-services">Цены на услуги</button>
           <button class="button_scroll-special prices">Специальные цены</button>
-          <button class="button_scroll-addresses-of-service-centers">
-            Адреса сервисных центров
-          </button>
+          <button class="button_scroll-addresses-of-service-centers">Адреса сервисных центров</button>
           <button class="button_scroll-reviews">Отзывы</button>
         </div>
       </div>
-      <div class="main_block-first">
-        <div class="main_block-information">
-          <div class="information-text">
-            <p class="block_infomation-text-first text-p">
+      <div class="main_block-first"> <!-- Основной контентный блок -->
+        <div class="main_block-information"> <!-- Текстовый блок -->
+          <div class="information-text"> <!-- Текстовая информация -->
+            <p class="block_infomation-text-first text-p"> <!-- Первый абзац -->
               Мы являемся авторизованным сервисным центром по ремонту техники
               Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
               официальной гарантией производителя.
             </p>
-            <p class="block_information-text-second text-p">
+            <p class="block_information-text-second text-p"> <!-- Второй абзац (изначально скрыт) -->
               Мы успешно работаем с 1992 года и заслужили репутацию надежного
               партнера, что подтверждает большое количество постоянных клиентов.
               Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою
               очередь, советуют нас родным и близким.
             </p>
           </div>
-          <div class="block_icon-read">
+          <div class="block_icon-read"> <!-- Кнопка "Читать далее" -->
             <button class="icon_read">
               <img src="img/icon-read.svg" alt="icon_read" />
             </button>
             <h3 class="read">Читать далее</h3>
           </div>
         </div>
-        <div class="main_block-second">
+        <div class="main_block-second"> <!-- Блок с изображением -->
           <img id="picture" src="img/Picture.jpg" alt="Picture" />
         </div>
       </div>

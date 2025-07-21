@@ -1,41 +1,40 @@
 @media (min-width: 1120px) {
   .header {
-    display: none;
+    display: none; /* Скрытие шапки */
   }
 
   .main {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 8px;
+    flex-direction: row; /* Горизонтальное направление */
+    flex-wrap: wrap; /* Перенос элементов */
+    justify-content: space-between; /* Распределение по ширине */
+    gap: 8px; /* Расстояние между элементами */
   }
 
   .main_container {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* Перенос элементов */
     justify-content: space-between;
-    width: 100%;
-    gap: 20px;
-    padding-top: 42px;
+    width: 100%; /* Полная ширина */
+    gap: 20px; /* Расстояние между элементами */
+    padding-top: 42px; /* Отступ сверху */
   }
 
   .highlight {
-    width: 3px;
-    height: 40px;
+    width: 3px; /* Ширина акцентной полосы */
+    height: 40px; /* Высота акцентной полосы */
   }
+  
   .main_title-name {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 27px;
+    justify-content: space-between; /* Распределение по ширине */
+    gap: 27px; /* Расстояние между элементами */
   }
 
+  /* Отображение кнопок сервисов */
   .main_services-button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 12px;
+    padding-right: 12px; /* Отступ справа */
   }
 
   .button-item {
@@ -44,92 +43,63 @@
     align-items: center;
     border: none;
     background: none;
-    padding-right: 25px;
+    padding-right: 25px; /* Отступ справа */
   }
 
   .button-item-text {
-    padding: 8px 16px;
-    border: none;
-    background: none;
-    color: #1b1c21;
-    font-weight: 500;
-    font-family: TT Lakes;
-    white-space: nowrap;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: -0.2px;
+    padding: 8px 16px; /* Внутренние отступы */
+    font-size: 16px; /* Размер шрифта */
+    line-height: 24px; /* Высота строки */
+    letter-spacing: -0.2px; /* Межбуквенное расстояние */
   }
 
   .main_slide_button-menu {
-    width: 100%;
+    width: 100%; /* Полная ширина */
   }
 
   .main_slide_button {
-    display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* Перенос кнопок */
     width: 100%;
   }
 
+  /* Стилизация кнопок */
   .main_slide_button > button {
-    box-sizing: border-box;
-    margin: 0;
+    box-sizing: border-box; /* Учет границ в размерах */
+    margin: 0; /* Сброс отступов */
   }
 
+  /* Перемещение последней кнопки */
   .main_slide_button > button:nth-child(6) {
-    order: 1;
+    order: 1; /* Изменение порядка */
   }
 
   .main_block-first {
-    display: flex;
-    flex-direction: row;
-    gap: 36px;
+    gap: 36px; /* Расстояние между колонками */
   }
 
   .main_block-information {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    padding-left: 34px;
+    width: 50%; /* Половина ширины */
+    padding-left: 34px; /* Отступ слева */
   }
 
   .information-text {
-    display: flex;
-    flex-direction: column;
-    gap: 26px;
+    gap: 26px; /* Расстояние между абзацами */
   }
 
+  /* Отображение второго абзаца (7 строк) */
   .block_information-text-second {
     display: -webkit-box;
-    overflow: hidden;
+    -webkit-line-clamp: 7; /* Макс. 7 строк */
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 7;
+    overflow: hidden;
   }
 
   .main_block-second {
-    width: 50%;
+    width: 50%; /* Половина ширины */
   }
 
+  /* Стили изображения */
   #picture {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 8px;
-    padding-right: 37px;
-  }
-
-  .text-p {
-    font-size: 14px;
-    font-family: TT Lakes;
-    font-weight: 400;
-  }
-
-  .read {
-    display: flex;
-    height: 24px;
-    font-size: 16px;
-    font-family: TT Lakes;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: -0.2px;
+    padding-right: 37px; /* Отступ справа */
   }
 }
