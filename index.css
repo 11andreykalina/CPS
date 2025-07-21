@@ -45,6 +45,7 @@ body {
   height: 40px; /* Высота кнопки */
   border: none; /* Без рамки */
   background: none; /* Прозрачный фон */
+  cursor: pointer; /* Курсор при наведении*/
 }
 
 /* Разделитель (скрыт на мобильных) */
@@ -83,6 +84,7 @@ body {
   background: none;
   width: 40px;
   height: 40px;
+  cursor: pointer; /* Курсор при наведении*/
 }
 
 /* Основной контент */
@@ -108,6 +110,7 @@ body {
 .highlight {
   background: none;
   border: none;
+  cursor: pointer; /* Курсор при наведении*/
 }
 
 /* Текст заголовка */
@@ -152,6 +155,7 @@ body {
   font-size: 16px; /* Размер шрифта */
   line-height: 24px; /* Высота строки */
   letter-spacing: -0.2px; /* Межбуквенное расстояние */
+  cursor: pointer; /* Курсор при наведении*/
 }
 
 /* Эффекты при наведении */
@@ -218,6 +222,7 @@ body {
   justify-content: flex-start; /* Выравнивание по левому краю */
   height: 24px; /* Высота контейнера */
   gap: 8px; /* Расстояние между элементами */
+  cursor: pointer; /* Курсор при наведении*/
 }
 
 /* Иконка */
@@ -229,6 +234,7 @@ body {
   height: 24px; /* Высота */
   border: none;
   background: none;
+  cursor: pointer; /* Курсор при наведении*/
 }
 
 /* Текст кнопки */
