@@ -146,7 +146,8 @@ body {
 /* Стили кнопок меню */
 .main_slide_button > button {
   padding: 6px 16px; /* Внутренние отступы */
-  border: none; /* Без рамки */
+  border: 2px solid #f8f8f8; 
+  border-color: #f8f8f8;
   background: none; /* Прозрачный фон */
   color: grey; /* Цвет текста */
   font-weight: 500; /* Полужирный */

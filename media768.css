@@ -49,4 +49,9 @@
     object-fit: cover; /* Обрезка изображения */
     border-radius: 8px; /* Закругление углов */
   }
+
+  .main_block-second {
+    width: 50%;
+    
+  }
 }
