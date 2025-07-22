@@ -36,6 +36,12 @@
     align-items: center;
     padding-right: 12px; /* Отступ справа */
   }
+   .main_slide_button {
+    display: flex;
+    width: max-content;
+    padding-left: 25px;
+    padding-bottom: 48px;
+}
 
   .button-item {
     display: flex;
@@ -52,15 +58,19 @@
     font-size: 16px; /* Размер шрифта */
     line-height: 24px; /* Высота строки */
     letter-spacing: -0.2px; /* Межбуквенное расстояние */
+    font-family: TT Lakes; /* Шрифт */
+    font-weight: 500; /* Обычное начертание */
+    color: #1B1C21;
   }
 
-  .main_slide_button-menu {
-    width: 100%; /* Полная ширина */
-  }
+  /*.main_slide_button-menu {
+    width: 100%; /* Полная ширина 
+  } 
+  */
 
   .main_slide_button {
     flex-wrap: wrap; /* Перенос кнопок */
-    width: 100%;
+   /* width: 100%; */
   }
 
   /* Стилизация кнопок */
@@ -90,6 +100,7 @@
   /* Отображение второго абзаца (7 строк) */
   .block_information-text-second {
     display: -webkit-box;
+    line-clamp: 7;
     -webkit-line-clamp: 7; /* Макс. 7 строк */
     -webkit-box-orient: vertical;
     overflow: hidden;
