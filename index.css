@@ -159,6 +159,11 @@ body {
   cursor: pointer; /* Курсор при наведении*/
 }
 
+#active_button {
+  border: 2px solid #b8ffec;
+  border-radius: 6px;
+}
+
 /* Эффекты при наведении */
 .main_slide_button > button:hover {
   border: 2px solid #b8ffec; /* Зеленая рамка */
@@ -183,6 +188,7 @@ body {
   font-size: 14px; /* Размер шрифта */
   font-family: TT Lakes; /* Шрифт */
   font-weight: 400; /* Обычное начертание */
+  color: #1B1C21;
 }
 
 /* Контейнер информации */
